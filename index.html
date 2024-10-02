@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only-Cars</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <section id="filtros">
+        <h2>Filtros de Búsqueda</h2>
+        <select id="marca">
+            <option value="">Seleccione una marca</option>
+            <option value="Ford">Ford</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Chevrolet">Chevrolet</option>
+        </select>
+        <input type="number" id="añoMin" placeholder="Año mínimo">
+        <input type="number" id="añoMax" placeholder="Año máximo">
+        <input type="number" id="kmMax" placeholder="Kilometraje máximo">
+        <button onclick="iniciarBusqueda()">Buscar</button>
+    </section>
+
+    <section id="resultados">
+    </section>
+</main>
+
+
+
+
+    <script src="./javascript/auto.js"></script>
+    <script src="./javascript/inventario.js"></script>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
